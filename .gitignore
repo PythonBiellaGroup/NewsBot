@@ -430,7 +430,7 @@ docs/_build/
 target/
 
 # Poetry
-#poetry.lock
+poetry.lock
 
 
 # Jupyter Notebook

@@ -35,7 +35,7 @@ optional = true
 optional = true
 
 [tool.poetry.dependencies]
-python = ">=3.9.8, <=3.11"
+python = ">=3.9.8, <=3.12"
 detect-secrets=">=1.4.0"
 ecs-logging = ">=2.1.0"
 loguru = ">=0.7.2"
@@ -43,6 +43,14 @@ pyaml=">=23.9.6"
 pydantic=">=2.3.0"
 python-dotenv=">=1.0.0"
 Unidecode=">=1.3.6"
+pytx = "^0.5.10"
+pytz = "^2024.1"
+python-telegram-bot = {extras = ["job-queue"], version = "^21.2"}
+feedparser = "^6.0.11"
+lxml = "^5.2.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+h11 = "^0.14.0"
 
 
 [tool.poetry.group.docs.dependencies]
