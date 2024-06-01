@@ -1,0 +1,7 @@
+[virtualenvs]
+in-project = true
+create = true
+
+# [http-basic.private]
+# username = "user"
+# password = "pw"
