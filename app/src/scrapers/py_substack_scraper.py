@@ -36,6 +36,7 @@ def substack_list():
         # ("https://aisupremacy.substack.com/archive/",
         #  "AI Supremacy"),
         ("https://www.bitecode.dev/archive/", "Bite code!"),
+        ("https://alessandromolina.substack.com/archive/", "Python Data Engineering"),
     ]
     for f in SUBSTACK_LIST:
         alist, blist, clist, dlist = substack_scraper(
@@ -146,5 +147,5 @@ def test_scraper():
 
 
 if __name__ == "__main__":
-    # test_scraper()
+    #test_scraper()
     pass
