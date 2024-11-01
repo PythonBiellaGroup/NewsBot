@@ -47,6 +47,55 @@ def youtube_python_feed():
             "https://www.youtube.com/feeds/videos.xml?channel_id=UCG8b6j9mTYPxRG26gahFiDQ",
             "Xtream - AI Compass",
         ),
+        #Aggiunti il 01/11/2024
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g",
+            "Corey Schafer",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCznj32AM2r98hZfTxrRo9bQ",
+            "Clear Code",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
+            "Socratica",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCvkM2esSMJTZVtPo8NVtP4g",
+            "The_Hynek",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCCfqyGl3nq_V0bo64CjZh8g",
+            "Continuous Delivery",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCHXa4OpASJEwrHrLeIzw7Yg",
+            "Nicholas Renotte",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCdngmbVKX1Tgre699-XLlUA",
+            "Tech World with Nana",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg",
+            "Tech With Tim",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg",
+            "mCoding",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCuudpdbKmQWq2PPzYgVCWlA",
+            "Indently",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UC8tgRQ7DOzAbn9L7zDL8mLg",
+            "John Watson Rooney",
+        ),
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ",
+            "Sentdex",
+        ),       
     ]
     for f in yt_feeds:
         alist, blist, clist, dlist = feedStandard(

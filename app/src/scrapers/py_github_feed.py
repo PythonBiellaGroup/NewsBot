@@ -38,6 +38,8 @@ def github_python_feed():
         "https://github.com/functime-org/functime/releases/latest",
         # PBG Website
         "https://github.com/PythonBiellaGroup/website/releases/latest",
+        #UV
+        "https://github.com/astral-sh/uv/releases/latest",
     ]
     for f in gh_feeds:
         alist, blist, clist, dlist = github_last_release(f)
