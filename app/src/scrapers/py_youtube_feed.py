@@ -96,6 +96,11 @@ def youtube_python_feed():
             "https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ",
             "Sentdex",
         ),       
+        #Aggiunti il 25/12/2024
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCtA2USp3OCEL_QRXsLwF5fw",
+            "Python for Everyone",
+        ),       
     ]
     for f in yt_feeds:
         alist, blist, clist, dlist = feedStandard(

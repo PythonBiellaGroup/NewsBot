@@ -40,6 +40,9 @@ def github_python_feed():
         "https://github.com/PythonBiellaGroup/website/releases/latest",
         #UV
         "https://github.com/astral-sh/uv/releases/latest",
+        #Aggiunti il 25/12/2024
+        #Pygame-Ce
+        "https://github.com/pygame-community/pygame-ce/releases/latest",
     ]
     for f in gh_feeds:
         alist, blist, clist, dlist = github_last_release(f)
