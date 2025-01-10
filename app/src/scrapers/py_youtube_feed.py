@@ -101,6 +101,11 @@ def youtube_python_feed():
             "https://www.youtube.com/feeds/videos.xml?channel_id=UCtA2USp3OCEL_QRXsLwF5fw",
             "Python for Everyone",
         ),       
+        #Aggiunti il 10/01/2025
+        (
+            "https://www.youtube.com/feeds/videos.xml?channel_id=UCDDG9vOcmgwlslJJpCWjqOg",
+            "Salvatore Sanfilippo (@antirez)",
+        ),
     ]
     for f in yt_feeds:
         alist, blist, clist, dlist = feedStandard(
